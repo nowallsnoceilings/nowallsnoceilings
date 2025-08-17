@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>No Walls No Ceilings — Global Community</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #0b1020; color: #e5e7eb; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: #0f172a; position: sticky; top: 0; }
+    nav a { color: #e5e7eb; margin: 0 0.5rem; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: #06b6d4; }
+    .social a { color: #e5e7eb; margin-left: 0.75rem; font-size: 1.2rem; }
+    section { padding: 2rem 1rem; max-width: 1100px; margin: auto; }
+    h2 { border-bottom: 2px solid #7c3aed; padding-bottom: 0.5rem; }
+    footer { background: #0f172a; color: #9ca3af; padding: 2rem 1rem; text-align: center; }
+    footer .social a { color: #9ca3af; margin: 0 0.5rem; }
+  </style>
+</head>
+<body>
+<header>
+  <div><strong>No Walls No Ceilings</strong></div>
+  <nav>
+    <a href="#stories">Stories & Interviews</a>
+    <a href="#resources">Learning Hub</a>
+    <a href="#showcase">Creative Showcase</a>
+    <a href="#services">Services</a>
+    <a href="#advocacy">Advocacy</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="social">
+    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+    <a href="https://youtube.com/@nowallsnoceilings" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+  </div>
+</header>
+
+<section id="hero">
+  <h1>Language, culture, and creativity — without walls or ceilings.</h1>
+  <p>A global community for language learners, culture-bearers, and creatives. Explore tools, stories, and opportunities for connection.</p>
+</section>
+
+<section id="stories">
+  <h2>Stories & Interviews</h2>
+  <p>Featuring voices of language teachers, emigrants, and grandmothers — sharing wisdom, journeys, and culture.</p>
+</section>
+
+<section id="resources">
+  <h2>Learning Hub</h2>
+  <p>Language tips, downloadable guides, and interviews with cultural experts. Video resources hosted on YouTube.</p>
+</section>
+
+<section id="showcase">
+  <h2>Creative Showcase</h2>
+  <p>Artists, musicians, writers, and filmmakers from around the world. Support and connect with global creatives.</p>
+</section>
+
+<section id="services">
+  <h2>Services & Tutoring</h2>
+  <p>Book English tutoring or cultural communication workshops. Check the calendar for availability.</p>
+  <iframe src="https://calendar.google.com/calendar/embed?src=nowallsnoceilings@gmail.com" style="border:0" width="100%" height="600"></iframe>
+</section>
+
+<section id="advocacy">
+  <h2>Advocacy & Community Action</h2>
+  <p>Campaigns, partnerships, and activism initiatives that break down cultural and linguistic barriers.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Get in touch for collaborations, stories, or tutoring inquiries.</p>
+  <form action="mailto:nowallsnoceilings@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required><br><br>
+    <input type="email" name="email" placeholder="Your Email" required><br><br>
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br><br>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>© <span id="year"></span> No Walls No Ceilings — Erika Heilmann</p>
+  <div class="social">
+    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+    <a href="https://youtube.com/@nowallsnoceilings" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
